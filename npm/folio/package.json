@@ -1,0 +1,44 @@
+{
+  "name": "@singhvibhanshu/folio",
+  "version": "0.1.0",
+  "description": "Privacy-first, fully offline PDF toolkit — merge, split, compress, protect, watermark, reorder pages and more, entirely on your machine.",
+  "bin": {
+    "folio": "bin/folio.js"
+  },
+  "files": [
+    "bin/",
+    "README.md"
+  ],
+  "keywords": [
+    "pdf",
+    "merge",
+    "split",
+    "compress",
+    "watermark",
+    "encrypt",
+    "offline",
+    "privacy",
+    "cli",
+    "ilovepdf"
+  ],
+  "optionalDependencies": {
+    "@singhvibhanshu/folio-darwin-arm64": "0.1.0",
+    "@singhvibhanshu/folio-darwin-x64": "0.1.0",
+    "@singhvibhanshu/folio-linux-x64": "0.1.0",
+    "@singhvibhanshu/folio-linux-arm64": "0.1.0",
+    "@singhvibhanshu/folio-win32-x64": "0.1.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhvibhanshu/folio.git"
+  },
+  "homepage": "https://github.com/singhvibhanshu/folio#readme",
+  "bugs": {
+    "url": "https://github.com/singhvibhanshu/folio/issues"
+  },
+  "author": "Vibhanshu Singh",
+  "license": "MIT"
+}
