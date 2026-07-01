@@ -1,7 +1,7 @@
 # @singhvibhanshu/folio
 
 **A privacy-first, fully offline PDF toolkit.** Merge, split, compress, protect,
-watermark, reorder pages and more — entirely on your machine. Nothing is
+watermark, reorder pages and more, entirely on your machine. Nothing is
 uploaded; your documents never leave your computer.
 
 ```bash

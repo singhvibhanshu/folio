@@ -1,7 +1,7 @@
 {
   "name": "@singhvibhanshu/folio",
   "version": "0.1.0",
-  "description": "Privacy-first, fully offline PDF toolkit — merge, split, compress, protect, watermark, reorder pages and more, entirely on your machine.",
+  "description": "Privacy-first, fully offline PDF toolkit: merge, split, compress, protect, watermark, reorder pages and more, entirely on your machine.",
   "bin": {
     "folio": "bin/folio.js"
   },

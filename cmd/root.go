@@ -16,10 +16,10 @@ var outFlag string
 
 var rootCmd = &cobra.Command{
 	Use:   "folio",
-	Short: "folio — a privacy-first, fully offline PDF toolkit",
+	Short: "folio: a privacy-first, fully offline PDF toolkit",
 	Long: `folio performs common PDF operations entirely on your machine.
 
-No uploads, no servers, no internet — your documents never leave your computer.
+No uploads, no servers, no internet: your documents never leave your computer.
 Merge, split, compress, rotate, protect, watermark, reorder pages, and more.`,
 	SilenceUsage:  true,
 	SilenceErrors: true,

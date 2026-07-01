@@ -5,12 +5,12 @@
 [![platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)](#install)
 
 **A privacy-first, fully offline PDF toolkit.** Merge, split, compress, protect,
-watermark, reorder pages and more — all on your own machine. **Nothing is ever
+watermark, reorder pages and more, all on your own machine. **Nothing is ever
 uploaded.** No servers, no accounts, no internet. Your documents never leave
 your computer.
 
 > Like the online "I♥PDF"-style tools, but your files stay private. folio is a
-> single self-contained binary (no runtime, no system libraries) — the offline
+> single self-contained binary (no runtime, no system libraries), the offline
 > sibling of [imago](https://github.com/singhvibhanshu/imago), which does the
 > same for images.
 
@@ -68,8 +68,8 @@ Run `folio <command> --help` for every flag.
 
 ## Why offline matters
 
-Online PDF tools require you to upload your documents — contracts, IDs, tax
-forms, medical records — to someone else's server. folio does the same
+Online PDF tools require you to upload your documents (contracts, IDs, tax
+forms, medical records) to someone else's server. folio does the same
 operations locally, so sensitive files never leave your machine. As a bonus,
 re-saving a PDF (compress, etc.) discards hidden metadata along the way.
 
@@ -101,7 +101,7 @@ Binaries are cross-compiled and published from one place.
 
 ```bash
 # 1. bump the version in npm/folio/package.json
-# 2. tag and push — GitHub Actions builds all platforms and publishes to npm
+# 2. tag and push: GitHub Actions builds all platforms and publishes to npm
 git tag v0.1.1 && git push --tags
 ```
 
